@@ -1,2 +1,2 @@
-forge script script/deployBaseTest.s.sol:deployBaseTest --rpc-url baseTest --broadcast --account omex
-forge script script/deployBlastTest.s.sol:deployBlastTest --rpc-url blastTest --broadcast --account omex 
+forge script script/deploy.s.sol:deployContract --rpc-url baseTest --broadcast --account omex -vvvv
+forge script script/deploy.s.sol:deployContract --rpc-url blastTest --broadcast --account omex -vvvv
